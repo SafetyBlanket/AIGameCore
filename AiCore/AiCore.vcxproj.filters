@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AICore">
+      <UniqueIdentifier>{3bdc770a-a0e4-4748-8212-afcdd9c121c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AICore">
+      <UniqueIdentifier>{984e0ccf-9295-48ff-b124-76f884cfc2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AICore\AI_Manager">
+      <UniqueIdentifier>{ec040b9c-cbcd-480d-bf42-4a62a399ff4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AICore\AI_Manager">
+      <UniqueIdentifier>{b06ff9bf-7cfe-469d-b65a-afd5ee952fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AICore\AI_Manager\Entities">
+      <UniqueIdentifier>{7433a89c-2391-49a4-90d6-3b084b1b1d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AICore\AI_Manager\Entities">
+      <UniqueIdentifier>{706bdbcc-efe6-44c7-983b-6beeafbf9b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AICore\Map_Manager">
+      <UniqueIdentifier>{74b39df1-a5da-4c79-926b-6bc61c9117c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AICore\Map_Manager">
+      <UniqueIdentifier>{59fe1572-fde0-4e59-b5f3-14f9d86230d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_Manager.cpp">
+      <Filter>Source Files\AICore\AI_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_Core_Interface.cpp">
+      <Filter>Source Files\AICore\AI_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_bot2D.cpp">
+      <Filter>Source Files\AICore\AI_Manager\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_bot2D_states.cpp">
+      <Filter>Source Files\AICore\AI_Manager\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI_Manager.h">
+      <Filter>Header Files\AICore\AI_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AI_Core_Interface.h">
+      <Filter>Header Files\AICore</Filter>
+    </ClInclude>
+    <ClInclude Include="AICoreHeaders.h">
+      <Filter>Header Files\AICore</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameEntity.h">
+      <Filter>Header Files\AICore\AI_Manager\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="states.h">
+      <Filter>Header Files\AICore\AI_Manager\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_bot2D.h">
+      <Filter>Header Files\AICore\AI_Manager\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_bot2D_states.h">
+      <Filter>Header Files\AICore\AI_Manager\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLinkedList.h">
+      <Filter>Header Files\AICore\AI_Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
